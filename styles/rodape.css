@@ -1,0 +1,28 @@
+.rodape{
+    width: auto;
+    background: var(--laranja-degrade);
+    height: 4em;
+    display: flex;
+    text-align: center;
+    border-top: 1px solid var(--cinza);
+}
+
+.rodape__logo{
+    display: inline-block;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    width: 50px;
+    height: 30px;
+}
+
+.rodape__titulo{
+    color: var(--cor-de-fundo);
+    padding-top: 1em;
+    font-size: 20px;
+}
+
+/* @media screen and (min-width: 720px) {
+    .rodape{
+        height: 15em;
+    }
+} */

@@ -1,0 +1,27 @@
+@import url('styles/header.css');
+@import url('styles/home.css');
+@import url('styles/sobremim.css');
+@import url('/styles/projetos.css');
+@import url('/styles/habilidades.css');
+@import url('/styles/contao.css');
+@import url('/styles/rodape.css');
+
+:root {
+    --cor-de-fundo: #292A25;
+    --cinza-transparente: rgba(107, 103, 103, 0.5);
+    --branco: #FFFFFF;
+    --laranja: #CA6F1C;
+    --cinza: #D9D9D9;
+    --laranja-degrade: linear-gradient(180deg, #CA6F1C 0%, #EB9B00 100%);
+    --escuro-degrade: linear-gradient(180deg, #282B24 0%, #1E1E1E 100%);
+    --fonte: 'josefin sans';
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: josefin sans;
+    flex: 1;
+}

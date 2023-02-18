@@ -1,0 +1,14 @@
+.habilidades{
+    text-align: center;
+}
+
+.habilidade__nome{
+    font-size: 32px;
+    padding: 0.5em 0;
+}
+
+.habilidade__texto{
+    padding: 0em 2em;
+    margin-bottom: 5em;
+    text-align: justify;
+}

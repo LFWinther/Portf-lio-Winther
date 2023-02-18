@@ -1,0 +1,73 @@
+.home {
+    text-align: center;
+    padding-top: 5em;
+}
+
+.container__titulo {
+    font-size: 24px;
+    text-align: center;
+}
+
+.container__nome {
+    padding: 0.5em 0;
+    font-size: 32px;
+}
+
+.container__botao {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botao__link {
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    background: var(--laranja-degrade);
+    width: 10em;
+    height: 3em;
+    text-align: center;
+    color: var(--cor-de-fundo);
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 2em 1em;
+}
+
+.botao__img {
+    width: 60px;
+}
+
+.botao__img_2 {
+    width: 50px;
+    margin-left: 5px;
+}
+
+.container__banner {
+    display: inline-block;
+    width: 370px;
+    height: 500px;
+}
+
+@media screen and (min-width: 720px) {
+    .container__botao {
+        justify-content: space-evenly;
+    }
+
+    .container__banner {
+        display: inline-block;
+        width: 470px;
+        height: 600px;
+    }
+
+    .home{
+        padding-top: 8em;
+    }    
+
+}
+
+@media screen and (min-width: 1240px) {
+    
+    .home{
+        background-image: url('../imgs/triangulo-esquerda.svg');
+        background-repeat: no-repeat;
+    }
+}

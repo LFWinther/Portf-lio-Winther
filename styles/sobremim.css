@@ -1,0 +1,57 @@
+.sobremim{
+    text-align: center;
+}
+
+.header__titulo{
+    text-align: center;
+    padding: 1em 5em;
+    border: 5px ;
+    color: var(--laranja);
+    border-top: 5px solid var(--laranja);
+    border-bottom: 5px solid var(--laranja);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.containder__sobremim{
+    text-align: center;
+    justify-items: center;
+}
+
+.imagem-perfil{
+    width: 15em;
+    padding: 3em 0;
+}
+
+.botao__img_3{
+    width: 2em;
+    margin-left: 1.5em;
+    margin-right: 0.5em;
+}
+
+.texto{
+    padding: 0em 2em;
+    margin-bottom: 2em;
+    text-align: justify;
+}
+
+.botao__link-2{
+    align-items: center;
+    display: inline-flex;
+    text-decoration: none;
+    background: var(--laranja-degrade);
+    width: 10em;
+    height: 3em;
+    text-align: center;
+    color: var(--cor-de-fundo);
+    font-weight: 700;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+@media screen and (min-width: 720px) {
+    
+    .imagem-perfil{
+        width: 20em;
+    }
+}

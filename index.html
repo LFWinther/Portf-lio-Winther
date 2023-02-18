@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winther Portfólio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <div class="container" id="container__invisivel">
+            <input type="checkbox" id="menu" class="container__checkbox">
+            <label for="menu">
+                <span class="header__menu-hamburguer container__img" id="icone-menu"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Sobre mim</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Projetos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Habilidades</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Contato</a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <img src="imgs/W-sf.png" alt="Logo do portfólio Winther" class="container__img">
+            <div class="container" id="">
+                <a class="header__ancora">Sobre mim</a>
+                <a class="header__ancora">Projetos</a>
+                <a class="header__ancora">Habilidades</a>
+                <a class="header__ancora">Contato</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="home">
+        <h2 class="container__titulo">Olá, eu sou</h2>
+        <h1 class="container__nome">Luis Filipe Winther Borges</h1>
+        <h2 class="container__titulo">Desenvolvedor Full-Stack</h2>
+        <img src="/imgs/banner.png" class="container__banner" alt="Imagem do banner do site">
+        <h2 class="container__titulo">Bem vindo ao meu Portifólio</h2>
+        <div class="container__botao">
+            <a data-aos="fade-left" data-aos-duration="1000" class="botao__link" href="https://github.com/LFWinther"
+                target="_blank">
+                <img class="botao__img" src="/imgs/github-sf.png">
+                GitHub
+            </a>
+            <a data-aos="fade-right" data-aos-duration="1000" class="botao__link"
+                href="https://www.linkedin.com/in/luisfilipewintherborges/" target="_blank">
+                <img class="botao__img_2" src="/imgs/linkedim-bold-sf.png">
+                Linkedin
+            </a>
+        </div>
+    </section>
+
+    <section class="sobremim">
+        <h2 class="header__titulo">Sobre mim</h2>
+        <div class="container__sobremim">
+            <div data-aos="zoom-in" data-aos-duration="1000">
+                <img src="/imgs/Eu.png" alt="Imagem de perfil de Luis Filipe Winther Borges" class="imagem-perfil">
+            </div>
+            <p data-aos="flip-left" data-aos-duration="1000" class="texto">
+                Olá, me chamo Luis Filipe Winther e tenho 25 anos de idade, atualmente resido em Nova Friburgo (RJ).
+                Certificado pelo programa de residência em TIC, oferecido pelo Serratec (maior polo tecnológico da
+                região serrana do Rio de Janeiro), adquiri habilidades solidas como Desenvolvedor Full Stack, me
+                apaixonei por programação e iniciei meu bacharelado em Engenharia De Software na instituição de ensino
+                Estácio de Sá. Atualmente busco por uma oportunidade como Desenvolvedor Júnior e/ou estágio para
+                solidificar e aprimorar meus conhecimentos na área de programação.
+            </p>
+            <a data-aos="fade-up" data-aos-duration="1000" class="botao__link-2"
+                href="https://drive.google.com/file/d/1GcQCM6aUInlqLvFLO5DkQtCjy9J91Jhc/view" target="_blank">
+                <img class="botao__img_3" src="/imgs/download.svg">
+                Currículo
+            </a>
+        </div>
+    </section>
+
+    <section class="projetos">
+        <h2 class="header__titulo">Projetos</h2>
+        <div class="carrossel__container">
+
+            <div class="swiper">
+                <div data-aos="fade-up" data-aos-duration="1000" class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="imgs/Card-mario.svg"></div>
+                    <div class="swiper-slide"><img src="imgs/Card-RickAndMorty.svg"></div>
+                    <div class="swiper-slide"><img src="imgs/Card-pokedex.svg"></div>
+                    <div class="swiper-slide"><img src="imgs/Card-mario.svg"></div>
+                    <div class="swiper-slide"><img src="imgs/Card-RickAndMorty.svg"></div>
+                    <div class="swiper-slide"><img src="imgs/Card-pokedex.svg"></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <h2 class="projeto__nome">Jogo da memoria</h2>
+        <p class="projeto__texto">texto texto texto texto texto texto
+            texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
+            texto texto texto texto texto texto texto texto </p>
+    </section>
+
+    <section class="habilidades">
+        <h2 class="header__titulo">Habilidades</h2>
+        <div class="carrossel__container">
+
+            <div class="swiper">
+                <div data-aos="fade-up" data-aos-duration="1000" class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="imgs/habilidades/react.svg"></div>
+                    <div class="swiper-slide"><img src="imgs/habilidades/java.svg"></div>
+                    <div class="swiper-slide"><img src="imgs/habilidades/javascript.svg"></div>
+                    <div class="swiper-slide"><img src="imgs/habilidades/css.svg"></div>
+                    <div class="swiper-slide"><img src="imgs/habilidades/html.svg"></div>
+                    <div class="swiper-slide"><img src="imgs/habilidades/python.svg"></div>
+                    <div class="swiper-slide"><img src="imgs/habilidades/postgresql.svg"></div>
+                    <div class="swiper-slide"><img src="imgs/habilidades/express.svg"></div>
+                    <div class="swiper-slide"><img src="imgs/habilidades/figma.svg"></div>
+                    <div class="swiper-slide"><img src="imgs/habilidades/github.svg"></div>
+                    <div class="swiper-slide"><img src="imgs/habilidades/Group 3.svg"></div>
+                    <div class="swiper-slide"><img src="imgs/habilidades/Group 4.svg"></div>
+                    <div class="swiper-slide"><img src="imgs/habilidades/mongo.svg"></div>
+                    <div class="swiper-slide"><img src="imgs/habilidades/spring.svg"></div>
+                    <div class="swiper-slide"><img src="imgs/habilidades/vscode.svg"></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <h2 class="habilidade__nome">Jogo da memoria</h2>
+        <p class="habilidade__texto">texto texto texto texto texto texto
+            texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
+            texto texto texto texto texto texto texto texto </p>
+    </section>
+
+    <section class="contato">
+        <h2 class="header__titulo">Contato</h2>
+        <form action="https://formsubmit.co/luisfilipewinther@gmail.com" method="POST" class="form">
+            <label class="continer__input" for="name">Nome</label>
+            <input type="text" name="name" required>
+            <label class="continer__input" for="email">Email</label>
+            <input type="email" name="email" required>
+            <label class="continer__input-2" for="message">Mensagem</label>
+            <textarea name="message" id="message" required></textarea>
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="next" value="http://127.0.0.1:5555/index.html">
+            <div id="input-botao">
+                <button data-aos="fade-up" type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="rodape">
+        <img src="imgs/W-sf.png" alt="Logo do portfólio Winther" class="rodape__logo">
+        <p class="rodape__titulo">inther</p>
+    </footer>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+    });
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
