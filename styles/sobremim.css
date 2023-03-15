@@ -55,3 +55,20 @@
         width: 20em;
     }
 }
+
+@media screen and (min-width: 1240px) {
+
+    .header__titulo{
+        display: none;
+    }
+
+    .texto{
+        padding: 1em 20em;
+        font-size: 24px;
+    }
+
+    .imagem-perfil{
+        width: 30em;
+    }
+    
+}

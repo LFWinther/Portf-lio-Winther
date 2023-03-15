@@ -67,6 +67,10 @@
     display: none;
 }
 
+.container__header-2{
+    display: none;
+}
+
 @media screen and (min-width: 720px) {
 
     .cabecalho{
@@ -99,6 +103,15 @@
     .header__ancora{
         padding: 0 5em;
         font-size: 24px
+    }
+
+    .container__header-2{
+        display: block;
+    }
+
+    .header__ancora-2{
+        text-transform: uppercase;
+        padding: 0 2em;
     }
     
 }

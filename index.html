@@ -52,14 +52,44 @@
                 <a class="header__ancora">Contato</a>
             </div>
         </div>
+        <div class="container__header-2">
+            <a class="header__ancora-2">Home</a>
+            <a class="header__ancora-2">Sobre mim</a>
+            <a class="header__ancora-2">Projetos</a>
+            <a class="header__ancora-2">Habilidades</a>
+            <a class="header__ancora-2">Contato</a>
+        </div>
     </header>
 
     <section class="home">
-        <h2 class="container__titulo">Olá, eu sou</h2>
-        <h1 class="container__nome">Luis Filipe Winther Borges</h1>
-        <h2 class="container__titulo">Desenvolvedor Full-Stack</h2>
-        <img src="/imgs/banner.png" class="container__banner" alt="Imagem do banner do site">
-        <h2 class="container__titulo">Bem vindo ao meu Portifólio</h2>
+        <div class="container__mobile">
+            <h2 class="container__titulo">Olá, eu sou</h2>
+            <h1 class="container__nome">Luis Filipe Winther Borges</h1>
+            <h2 class="container__titulo">Desenvolvedor Full-Stack</h2>
+            <img src="/imgs/banner.png" class="container__banner" alt="Imagem do banner do site">
+            <h2 class="container__titulo">Bem vindo ao meu Portifólio</h2>
+        </div>
+        <div class="container__pc">
+            <div class="home__texto">
+                <h2 class="container__titulo">Olá, eu sou</h2>
+                <h1 class="container__nome">Luis Filipe Winther Borges</h1>
+                <h2 class="container__titulo">Desenvolvedor Full-Stack</h2>
+                <h2 class="container__titulo">Bem vindo ao meu Portifólio</h2>
+                <div class="container__botao_pc">
+                    <a data-aos="fade-left" data-aos-duration="1000" class="botao__link"
+                        href="https://github.com/LFWinther" target="_blank">
+                        <img class="botao__img" src="/imgs/github-sf.png">
+                        GitHub
+                    </a>
+                    <a data-aos="fade-right" data-aos-duration="1000" class="botao__link"
+                        href="https://www.linkedin.com/in/luisfilipewintherborges/" target="_blank">
+                        <img class="botao__img_2" src="/imgs/linkedim-bold-sf.png">
+                        Linkedin
+                    </a>
+                </div>
+            </div>
+            <img src="/imgs/banner.png" class="container__banner" alt="Imagem do banner do site">
+        </div>
         <div class="container__botao">
             <a data-aos="fade-left" data-aos-duration="1000" class="botao__link" href="https://github.com/LFWinther"
                 target="_blank">
@@ -84,8 +114,9 @@
                 Olá, me chamo Luis Filipe Winther e tenho 25 anos de idade, atualmente resido em Nova Friburgo (RJ).
                 Certificado pelo programa de residência em TIC, oferecido pelo Serratec (maior polo tecnológico da
                 região serrana do Rio de Janeiro), adquiri habilidades solidas como Desenvolvedor Full Stack, me
-                apaixonei por programação e iniciei meu bacharelado em Engenharia De Software na instituição de ensino
-                Estácio de Sá. Atualmente busco por uma oportunidade como Desenvolvedor Júnior e/ou estágio para
+                apaixonei por programação e iniciei meu bacharelado em Anãlise e desenvolvimento de Sistemas na
+                instituição de ensino
+                Uninter. Atualmente busco por uma oportunidade como Desenvolvedor Júnior e/ou estágio para
                 solidificar e aprimorar meus conhecimentos na área de programação.
             </p>
             <a data-aos="fade-up" data-aos-duration="1000" class="botao__link-2"
@@ -98,6 +129,7 @@
 
     <section class="projetos">
         <h2 class="header__titulo">Projetos</h2>
+
         <div class="carrossel__container">
 
             <div class="swiper">
@@ -114,16 +146,30 @@
                 <div class="swiper-pagination"></div>
             </div>
         </div>
-        <h2 class="projeto__nome">Jogo da memoria</h2>
-        <p class="projeto__texto">texto texto texto texto texto texto
-            texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
-            texto texto texto texto texto texto texto texto </p>
+
+        <div class="contaienr__projetos-pc">
+            <div class="scroll">
+                <img class="projetos__pc" src="imgs/Card-mario.svg">
+                <img class="projetos__pc" src="imgs/Card-RickAndMorty.svg">
+                <img class="projetos__pc" src="imgs/Card-pokedex.svg">
+                <img class="projetos__pc" src="imgs/Card-mario.svg">
+                <img class="projetos__pc" src="imgs/Card-RickAndMorty.svg">
+                <img class="projetos__pc" src="imgs/Card-pokedex.svg">
+            </div>
+            <div class="conteiner__projeto-textos">
+                <h2 class="projeto__nome">Jogo da memoria</h2>
+                <p class="projeto__texto">
+                    texto texto texto texto texto texto
+                    texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
+                    texto texto texto texto texto texto texto texto texto texto
+                </p>
+            </div>
+        </div>
     </section>
 
     <section class="habilidades">
         <h2 class="header__titulo">Habilidades</h2>
         <div class="carrossel__container">
-
             <div class="swiper">
                 <div data-aos="fade-up" data-aos-duration="1000" class="swiper-wrapper">
                     <div class="swiper-slide"><img src="imgs/habilidades/react.svg"></div>
@@ -147,10 +193,34 @@
                 <div class="swiper-pagination"></div>
             </div>
         </div>
-        <h2 class="habilidade__nome">Jogo da memoria</h2>
-        <p class="habilidade__texto">texto texto texto texto texto texto
-            texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
-            texto texto texto texto texto texto texto texto </p>
+        <div class="contaienr__projetos-pc">
+            <div class="conteiner__projeto-textos">
+                <h2 class="projeto__nome">Jogo da memoria</h2>
+                <p class="projeto__texto">
+                    texto texto texto texto texto texto
+                    texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
+                    texto texto texto texto texto texto texto texto texto texto
+                </p>
+            </div>
+            <div class="scroll">
+                <img class="projetos__pc" src="imgs/habilidades/react.svg">
+                <img class="projetos__pc" src="imgs/habilidades/java.svg">
+                <img class="projetos__pc" src="imgs/habilidades/javascript.svg">
+                <img class="projetos__pc" src="imgs/habilidades/css.svg">
+                <img class="projetos__pc" src="imgs/habilidades/html.svg">
+                <img class="projetos__pc" src="imgs/habilidades/python.svg">
+                <img class="projetos__pc" src="imgs/habilidades/postgresql.svg">
+                <img class="projetos__pc" src="imgs/habilidades/express.svg">
+                <img class="projetos__pc" src="imgs/habilidades/figma.svg">
+                <img class="projetos__pc" src="imgs/habilidades/github.svg">
+                <img class="projetos__pc" src="imgs/habilidades/Group 3.svg">
+                <img class="projetos__pc" src="imgs/habilidades/Group 4.svg">
+                <img class="projetos__pc" src="imgs/habilidades/mongo.svg">
+                <img class="projetos__pc" src="imgs/habilidades/spring.svg">
+                <img class="projetos__pc" src="imgs/habilidades/vscode.svg">
+            </div>
+            
+        </div>
     </section>
 
     <section class="contato">

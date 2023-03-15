@@ -69,3 +69,14 @@
         font-size: 18px;
     }
 }
+
+@media screen and (min-width: 1240px) {
+    .form button {
+        width: 18%;
+        font-size: 18px;
+    }
+
+    .form{
+        width: 50%;
+    }
+}
