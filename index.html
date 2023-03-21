@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Winther Portfólio</title>
     <link rel="stylesheet" href="reset.css">
+    <link rel="icon" href="imgs/W-sf.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -30,38 +31,36 @@
             </label>
             <ul class="lista-menu">
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Sobre mim</a>
+                    <a href="#id__sobremim" class="lista-menu__link">Sobre mim</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Projetos</a>
+                    <a href="#id__projetos" class="lista-menu__link">Projetos</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Habilidades</a>
+                    <a href="#id__habilidades" class="lista-menu__link">Habilidades</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Contato</a>
+                    <a href="#id__contato" class="lista-menu__link">Contato</a>
                 </li>
             </ul>
         </div>
         <div class="container">
-            <img src="imgs/W-sf.png" alt="Logo do portfólio Winther" class="container__img">
-            <div class="container" id="">
-                <a class="header__ancora">Sobre mim</a>
-                <a class="header__ancora">Projetos</a>
-                <a class="header__ancora">Habilidades</a>
-                <a class="header__ancora">Contato</a>
-            </div>
+            <a href="#id__home"><img src="imgs/W-sf.png" alt="Logo do portfólio Winther" class="container__img"></a>
+            <a class="header__ancora" href="#id__sobremim">Sobre mim</a>
+            <a class="header__ancora" href="#id__projetos">Projetos</a>
+            <a class="header__ancora" href="#id__habilidades">Habilidades</a>
+            <a class="header__ancora" href="#id__contato">Contato</a>
         </div>
         <div class="container__header-2">
-            <a class="header__ancora-2">Home</a>
-            <a class="header__ancora-2">Sobre mim</a>
-            <a class="header__ancora-2">Projetos</a>
-            <a class="header__ancora-2">Habilidades</a>
-            <a class="header__ancora-2">Contato</a>
+            <a class="header__ancora-2" href="#id__home">Home</a>
+            <a class="header__ancora-2" href="#id__sobremim">Sobre mim</a>
+            <a class="header__ancora-2" href="#id__projetos">Projetos</a>
+            <a class="header__ancora-2" href="#id__habilidades">Habilidades</a>
+            <a class="header__ancora-2" href="#id__contato">Contato</a>
         </div>
     </header>
 
-    <section class="home">
+    <section class="home" id="id__home">
         <div class="container__mobile">
             <h2 class="container__titulo">Olá, eu sou</h2>
             <h1 class="container__nome">Luis Filipe Winther Borges</h1>
@@ -104,8 +103,10 @@
         </div>
     </section>
 
-    <section class="sobremim">
-        <h2 class="header__titulo">Sobre mim</h2>
+    <section class="sobremim" id='id__sobremim'>
+        <div class="container__h1">
+            <h2 class="header__titulo">Sobre mim</h2>
+        </div>
         <div class="container__sobremim">
             <div data-aos="zoom-in" data-aos-duration="1000">
                 <img src="/imgs/Eu.png" alt="Imagem de perfil de Luis Filipe Winther Borges" class="imagem-perfil">
@@ -113,8 +114,8 @@
             <p data-aos="flip-left" data-aos-duration="1000" class="texto">
                 Olá, me chamo Luis Filipe Winther e tenho 25 anos de idade, atualmente resido em Nova Friburgo (RJ).
                 Certificado pelo programa de residência em TIC, oferecido pelo Serratec (maior polo tecnológico da
-                região serrana do Rio de Janeiro), adquiri habilidades solidas como Desenvolvedor Full Stack, me
-                apaixonei por programação e iniciei meu bacharelado em Anãlise e desenvolvimento de Sistemas na
+                região serrana do Rio de Janeiro), adquiri habilidades sólidas como Desenvolvedor Full Stack, me
+                apaixonei por programação e iniciei meu bacharelado em Análise e desenvolvimento de Sistemas na
                 instituição de ensino
                 Uninter. Atualmente busco por uma oportunidade como Desenvolvedor Júnior e/ou estágio para
                 solidificar e aprimorar meus conhecimentos na área de programação.
@@ -127,48 +128,72 @@
         </div>
     </section>
 
-    <section class="projetos">
-        <h2 class="header__titulo">Projetos</h2>
-
+    <section class="projetos" id="id__projetos">
+        <div class="container__h1">
+            <h2 class="header__titulo">Projetos</h2>
+        </div>
         <div class="carrossel__container">
-
             <div class="swiper">
                 <div data-aos="fade-up" data-aos-duration="1000" class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="imgs/Card-mario.svg"></div>
+                    <div class="swiper-slide"><img class="projetos__img" src="imgs/Card-mario.svg"></div>
                     <div class="swiper-slide"><img src="imgs/Card-RickAndMorty.svg"></div>
                     <div class="swiper-slide"><img src="imgs/Card-pokedex.svg"></div>
                     <div class="swiper-slide"><img src="imgs/Card-mario.svg"></div>
                     <div class="swiper-slide"><img src="imgs/Card-RickAndMorty.svg"></div>
-                    <div class="swiper-slide"><img src="imgs/Card-pokedex.svg"></div>
+                    <!-- <div class="swiper-slide"><img src="imgs/Card-pokedex.svg"></div> -->
                 </div>
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-pagination"></div>
             </div>
         </div>
-
         <div class="contaienr__projetos-pc">
             <div class="scroll">
-                <img class="projetos__pc" src="imgs/Card-mario.svg">
-                <img class="projetos__pc" src="imgs/Card-RickAndMorty.svg">
-                <img class="projetos__pc" src="imgs/Card-pokedex.svg">
-                <img class="projetos__pc" src="imgs/Card-mario.svg">
-                <img class="projetos__pc" src="imgs/Card-RickAndMorty.svg">
-                <img class="projetos__pc" src="imgs/Card-pokedex.svg">
+                <a href="https://game-mario-six.vercel.app/index.html" target="_blank"><img id="card__projeto-1" class="projetos__pc" src="imgs/Card-mario.svg"></a>
+                <a href="https://jogo-da-memoria-seven-psi.vercel.app" target="_blank"><img id="card__projeto-2" class="projetos__pc" src="imgs/Card-RickAndMorty.svg"></a>
+                <a href="https://pokedex-nine-plum.vercel.app" target="_blank"><img id="card__projeto-3" class="projetos__pc" src="imgs/Card-pokedex.svg"></a>
+                <a href="https://alura-plus-kappa-mocha.vercel.app" target="_blank"><img id="card__projeto-4" class="projetos__pc" src="imgs/AluraPlus.svg"></a>
+                <a href="https://github.com/LFWinther/Odonto_Easy_Back" target="_blank"><img id="card__projeto-5" class="projetos__pc" src="imgs/dente.svg"></a>
+                <!-- <a href="" target="_blank"><img id="card__projeto-6" class="projetos__pc" src="imgs/Card-pokedex.svg"></a> -->
             </div>
-            <div class="conteiner__projeto-textos">
-                <h2 class="projeto__nome">Jogo da memoria</h2>
-                <p class="projeto__texto">
-                    texto texto texto texto texto texto
-                    texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
-                    texto texto texto texto texto texto texto texto texto texto
+            <div id="container__descricao-1" class="conteiner__projeto-textos ">
+                <h2 id="n1" class="projeto__nome descricao">Mario</h2>
+                <p id="d1" class="projeto__texto descricao">
+                    Um jogo do Mario de plataforma feito com CSS, HTML e JavaScript. <br>
+                    Já jogavel para computador porém ainda falta atualizações para mobile.
+                </p>
+                <h2 id="n2" class="projeto__nome descricao">Jogo da Memória</h2>
+                <p id="d2" class="projeto__texto descricao">
+                    Um jogo de memória com a temática do Rick and Morthy. Foi feito com CSS, HTML e JavaScript. <br>
+                    Já está finalizado, mas pretendo por um ranking dos melhores tempos em atualizações futuras.
+                </p>
+                <h2 id="n3" class="projeto__nome descricao">Pokedex</h2>
+                <p id="d3" class="projeto__texto descricao">
+                    Um projeto de uma Pokedex feita utilizando CSS, HTML e JavaScript.<br>
+                    Este projeto consome uma API - pokeapi
+                </p>
+                <h2 id="n4" class="projeto__nome descricao">AluraPlus</h2>
+                <p id="d4" class="projeto__texto descricao">
+                    Um projeto de estudo feito com CSS (flexbox e grid), HTML e JavaScript.
+                </p>
+                <h2 id="n5" class="projeto__nome descricao">OdontonEasy</h2>
+                <p id="d5" class="projeto__texto descricao">
+                    Um projeto feito na finalização do meu curso de FullStack para uma empresa da minha cidade. <br>
+                    Na parte do BackEnd utilizamos Java junto com SpringBoot
+                </p>
+                <h2 id="n6" class="projeto__nome descricao">Pokedex</h2>
+                <p id="d6" class="projeto__texto descricao">
+                    Um projeto de uma Pokedex feita utilizando CSS, HTML e JavaScript.
+                    Este projeto consome um API - https://pokeapi.co/
                 </p>
             </div>
         </div>
     </section>
 
-    <section class="habilidades">
-        <h2 class="header__titulo">Habilidades</h2>
+    <section class="habilidades" id="id__habilidades">
+        <div class="container__h1">
+            <h2 class="header__titulo">Habilidades</h2>
+        </div>
         <div class="carrossel__container">
             <div class="swiper">
                 <div data-aos="fade-up" data-aos-duration="1000" class="swiper-wrapper">
@@ -195,36 +220,92 @@
         </div>
         <div class="contaienr__projetos-pc">
             <div class="conteiner__projeto-textos">
-                <h2 class="projeto__nome">Jogo da memoria</h2>
-                <p class="projeto__texto">
-                    texto texto texto texto texto texto
-                    texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
-                    texto texto texto texto texto texto texto texto texto texto
+                <h2 id="m1" class="projeto__nome descricao">React</h2>
+                <p id="e1" class="projeto__texto descricao">
+                    Aprendi está tecnologia no curso de FullStack pela instituição Serratec em 2022.
+                </p>
+                <h2 id="m2" class="projeto__nome descricao">Java</h2>
+                <p id="e2" class="projeto__texto descricao">
+                    Aprendi está linguagem de programação no curso de FullStack pela instituição Serratec em 2022.
+                </p>
+                <h2 id="m3" class="projeto__nome descricao">JavaScript</h2>
+                <p id="e3" class="projeto__texto descricao">
+                    Aprendi está linguagem de programação no curso de FullStack pela instituição Serratec em 2022.
+                </p>
+                <h2 id="m4" class="projeto__nome descricao">CSS</h2>
+                <p id="e4" class="projeto__texto descricao">
+                    Aprendi está tecnologia no curso de FullStack pela instituição Serratec em 2022.
+                </p>
+                <h2 id="m5" class="projeto__nome descricao">HTML</h2>
+                <p id="e5" class="projeto__texto descricao">
+                    Aprendi está tecnologia no curso de FullStack pela instituição Serratec em 2022.
+                </p>
+                <h2 id="m6" class="projeto__nome descricao">Python</h2>
+                <p id="e6" class="projeto__texto descricao">
+                    Estou aprendendo está linguagem de programação em minha graduação de ADS juntamente com o curso da Alura.
+                </p>
+                <h2 id="m7" class="projeto__nome descricao">PostegreSQL</h2>
+                <p id="e7" class="projeto__texto descricao">
+                    Aprendi está tecnologia no curso de FullStack pela instituição Serratec em 2022.
+                </p>
+                <h2 id="m8" class="projeto__nome descricao">Express</h2>
+                <p id="e8" class="projeto__texto descricao">
+                    Aprendi está tecnologia no curso da Alura em 2023.
+                </p>
+                <h2 id="m9" class="projeto__nome descricao">Figma</h2>
+                <p id="e9" class="projeto__texto descricao">
+                    Aprendi está tecnologia no curso de FullStack pela instituição Serratec em 2022.
+                </p>
+                <h2 id="m10" class="projeto__nome descricao">GitHub</h2>
+                <p id="e10" class="projeto__texto descricao">
+                    Aprendi está tecnologia no curso de FullStack pela instituição Serratec em 2022.
+                </p>
+                <h2 id="m11" class="projeto__nome descricao">Git</h2>
+                <p id="e11" class="projeto__texto descricao">
+                    Aprendi está tecnologia no curso de FullStack pela instituição Serratec em 2022.
+                </p>
+                <h2 id="m12" class="projeto__nome descricao">NPM</h2>
+                <p id="e12" class="projeto__texto descricao">
+                    Aprendi está tecnologia no curso de FullStack pela instituição Serratec em 2022.
+                </p>
+                <h2 id="m13" class="projeto__nome descricao">Mongo</h2>
+                <p id="e13" class="projeto__texto descricao">
+                    Aprendi está tecnologia no curso dAlura em 2023.
+                </p>
+                <h2 id="m14" class="projeto__nome descricao">Spring</h2>
+                <p id="e14" class="projeto__texto descricao">
+                    Aprendi está tecnologia no curso de FullStack pela instituição Serratec em 2022.
+                </p>
+                <h2 id="m15" class="projeto__nome descricao">VSCode</h2>
+                <p id="e15" class="projeto__texto descricao">
+                    Aprendi está ferramenta no curso de FullStack pela instituição Serratec em 2022.
                 </p>
             </div>
             <div class="scroll">
-                <img class="projetos__pc" src="imgs/habilidades/react.svg">
-                <img class="projetos__pc" src="imgs/habilidades/java.svg">
-                <img class="projetos__pc" src="imgs/habilidades/javascript.svg">
-                <img class="projetos__pc" src="imgs/habilidades/css.svg">
-                <img class="projetos__pc" src="imgs/habilidades/html.svg">
-                <img class="projetos__pc" src="imgs/habilidades/python.svg">
-                <img class="projetos__pc" src="imgs/habilidades/postgresql.svg">
-                <img class="projetos__pc" src="imgs/habilidades/express.svg">
-                <img class="projetos__pc" src="imgs/habilidades/figma.svg">
-                <img class="projetos__pc" src="imgs/habilidades/github.svg">
-                <img class="projetos__pc" src="imgs/habilidades/Group 3.svg">
-                <img class="projetos__pc" src="imgs/habilidades/Group 4.svg">
-                <img class="projetos__pc" src="imgs/habilidades/mongo.svg">
-                <img class="projetos__pc" src="imgs/habilidades/spring.svg">
-                <img class="projetos__pc" src="imgs/habilidades/vscode.svg">
+                <img id="card__habilidade-1" class="projetos__pc" src="imgs/habilidades/react.svg">
+                <img id="card__habilidade-2" class="projetos__pc" src="imgs/habilidades/java.svg">
+                <img id="card__habilidade-3" class="projetos__pc" src="imgs/habilidades/javascript.svg">
+                <img id="card__habilidade-4" class="projetos__pc" src="imgs/habilidades/css.svg">
+                <img id="card__habilidade-5" class="projetos__pc" src="imgs/habilidades/html.svg">
+                <img id="card__habilidade-6" class="projetos__pc" src="imgs/habilidades/python.svg">
+                <img id="card__habilidade-7" class="projetos__pc" src="imgs/habilidades/postgresql.svg">
+                <img id="card__habilidade-8" class="projetos__pc" src="imgs/habilidades/express.svg">
+                <img id="card__habilidade-9" class="projetos__pc" src="imgs/habilidades/figma.svg">
+                <img id="card__habilidade-10" class="projetos__pc" src="imgs/habilidades/github.svg">
+                <img id="card__habilidade-11" class="projetos__pc" src="imgs/habilidades/Group 3.svg">
+                <img id="card__habilidade-12" class="projetos__pc" src="imgs/habilidades/Group 4.svg">
+                <img id="card__habilidade-13" class="projetos__pc" src="imgs/habilidades/mongo.svg">
+                <img id="card__habilidade-14" class="projetos__pc" src="imgs/habilidades/spring.svg">
+                <img id="card__habilidade-15" class="projetos__pc" src="imgs/habilidades/vscode.svg">
             </div>
-            
+
         </div>
     </section>
 
-    <section class="contato">
-        <h2 class="header__titulo">Contato</h2>
+    <section class="contato" id="id__contato">
+        <div class="container__h1">
+            <h2 class="header__titulo">Contato</h2>
+        </div>
         <form action="https://formsubmit.co/luisfilipewinther@gmail.com" method="POST" class="form">
             <label class="continer__input" for="name">Nome</label>
             <input type="text" name="name" required>
@@ -262,5 +343,8 @@
 <script>
     AOS.init();
 </script>
+
+<script src="JS/projetos.js"></script>
+<script src="JS/habilidades.js"></script>
 
 </html>

@@ -46,6 +46,10 @@
     justify-content: center;
 }
 
+.form button:hover{
+    background: var(--laranja);
+}
+
 #primeiro__input {
     margin-top: 3em;
 }

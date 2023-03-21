@@ -18,7 +18,7 @@
 }
 
 .cabecalho{
-    background-color: var(--cinza-transparente);
+    background-color: var(--cinza);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +27,7 @@
     left: 0;
     width: 100%;
     z-index: 5;
+    border-bottom: 2px solid var(--laranja);
 }
 
 .container__checkbox:checked ~ .container__label > .header__menu-hamburguer {
@@ -56,7 +57,7 @@
 
 .lista-menu__item{
     padding: 1em;
-    background-color: var(--cinza);
+    background-color: var(--cinza2);
 }
 
 #icone-menu{
@@ -102,16 +103,29 @@
 
     .header__ancora{
         padding: 0 5em;
-        font-size: 24px
+        font-size: 24px;
+        text-decoration: none;
     }
-
+    
     .container__header-2{
         display: block;
     }
-
-    .header__ancora-2{
+    
+    .header__ancora-2,
+    .header__ancora-2:visited {
         text-transform: uppercase;
         padding: 0 2em;
+        text-decoration: none;
+        color: #000;
     }
     
+    .header__ancora-2:visited:hover{
+        color: var(--laranja);
+        
+    }
+    
+}
+
+html {
+    scroll-behavior: smooth;
 }
