@@ -16,6 +16,7 @@
     --laranja-degrade: linear-gradient(180deg, #CA6F1C 0%, #EB9B00 100%);
     --escuro-degrade: linear-gradient(180deg, #282B24 0%, #1E1E1E 100%);
     --fonte: 'josefin sans';
+    --swiper-theme-color: #CA6F1C
 }
 
 body{
