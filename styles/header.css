@@ -119,6 +119,7 @@
         color: #000;
     }
     
+    .header__ancora-2:hover,
     .header__ancora-2:visited:hover{
         color: var(--laranja);
         

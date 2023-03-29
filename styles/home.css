@@ -100,9 +100,9 @@
     }
 
     .container__banner {
-        width: 670px;
-        height: 800px;
-        margin-bottom: 6.5em;
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
     }
 
     .botao__link,
