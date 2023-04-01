@@ -48,6 +48,9 @@
 
 .projetos__descricao{
     margin: 0 1em 3em 1em;
+    height: 6em;
+    display: flex;
+    align-items: center;
 }
 
 @media screen and (min-width: 1240px) {
@@ -109,5 +112,9 @@
     .projetos__img:hover,
     .projetos__pc:hover{
         opacity: 1;
+    }
+
+    .projetos__descricao{
+        display: none;
     }
 }

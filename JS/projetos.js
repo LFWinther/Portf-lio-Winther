@@ -17,8 +17,6 @@ projeto1.addEventListener("mouseout", function() {
 });
 // -----------------------------------------
 
-
-
 var projeto2 = document.querySelector('#card__projeto-2');
 
 projeto2.addEventListener("mouseover", function() {
@@ -37,8 +35,6 @@ projeto2.addEventListener("mouseout", function() {
     descricao.classList.add("descricao");
 });
 // -----------------------------------------
-
-
 
 var projeto3 = document.querySelector('#card__projeto-3');
 
@@ -59,8 +55,6 @@ projeto3.addEventListener("mouseout", function() {
 });
 // -----------------------------------------
 
-
-
 var projeto4 = document.querySelector('#card__projeto-4');
 
 projeto4.addEventListener("mouseover", function() {
@@ -79,8 +73,6 @@ projeto4.addEventListener("mouseout", function() {
     descricao.classList.add("descricao");
 });
 // -----------------------------------------
-
-
 
 var projeto5 = document.querySelector('#card__projeto-5');
 
@@ -101,8 +93,6 @@ projeto5.addEventListener("mouseout", function() {
 });
 // -----------------------------------------
 
-
-
 var projeto6 = document.querySelector('#card__projeto-6');
 
 projeto6.addEventListener("mouseover", function() {
@@ -121,5 +111,3 @@ projeto6.addEventListener("mouseout", function() {
     descricao.classList.add("descricao");
 });
 // -----------------------------------------
-
-
