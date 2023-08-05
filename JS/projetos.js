@@ -111,3 +111,22 @@ projeto6.addEventListener("mouseout", function() {
     descricao.classList.add("descricao");
 });
 // -----------------------------------------
+
+var projeto6 = document.querySelector('#card__projeto-7');
+
+projeto6.addEventListener("mouseover", function() {
+    var nome = document.querySelector("#n7");
+    var descricao = document.querySelector("#d7");
+    
+    nome.classList.remove("descricao");
+    descricao.classList.remove("descricao");
+});
+
+projeto6.addEventListener("mouseout", function() {
+    var nome = document.querySelector("#n7");
+    var descricao = document.querySelector("#d7");
+    
+    nome.classList.add("descricao");
+    descricao.classList.add("descricao");
+});
+// -----------------------------------------

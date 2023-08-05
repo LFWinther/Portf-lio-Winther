@@ -40,8 +40,11 @@ swiper.on('slideChange', function() {
         descricao = `Um projeto feito na finalização do meu curso de FullStack para uma empresa da minha cidade. 
         Na parte do BackEnd utilizamos Java junto com SpringBoot`
     } else if(activeSlideIndex == 5){
-        descricao = `Um projeto de uma Pokedex feita utilizando CSS, HTML e JavaScript.
-        Este projeto consome um API - https://pokeapi.co/`
+        descricao = `Um projeto feto com HTML e CSS de uma Plataforma da Alura de livros de programação feito
+        para estudar responsividade`
+    } else if(activeSlideIndex == 6){
+        descricao = `Um jogo da cobrinha desenvolvido em JavaScript, CSS e HTML. <br>Feito com a ajuda do canal do YouTube Manual do Dev com algumas 
+        implementações a mais, como dificuldade e modo noturno.`
     }
     $('#descricao').text(descricao);
 });
