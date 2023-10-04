@@ -112,9 +112,9 @@ projeto6.addEventListener("mouseout", function() {
 });
 // -----------------------------------------
 
-var projeto6 = document.querySelector('#card__projeto-7');
+var projeto7 = document.querySelector('#card__projeto-7');
 
-projeto6.addEventListener("mouseover", function() {
+projeto7.addEventListener("mouseover", function() {
     var nome = document.querySelector("#n7");
     var descricao = document.querySelector("#d7");
     
@@ -122,9 +122,28 @@ projeto6.addEventListener("mouseover", function() {
     descricao.classList.remove("descricao");
 });
 
-projeto6.addEventListener("mouseout", function() {
+projeto7.addEventListener("mouseout", function() {
     var nome = document.querySelector("#n7");
     var descricao = document.querySelector("#d7");
+    
+    nome.classList.add("descricao");
+    descricao.classList.add("descricao");
+});
+// -----------------------------------------
+
+var projeto8 = document.querySelector('#card__projeto-8');
+
+projeto8.addEventListener("mouseover", function() {
+    var nome = document.querySelector("#n8");
+    var descricao = document.querySelector("#d8");
+    
+    nome.classList.remove("descricao");
+    descricao.classList.remove("descricao");
+});
+
+projeto8.addEventListener("mouseout", function() {
+    var nome = document.querySelector("#n8");
+    var descricao = document.querySelector("#d8");
     
     nome.classList.add("descricao");
     descricao.classList.add("descricao");

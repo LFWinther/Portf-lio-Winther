@@ -45,6 +45,9 @@ swiper.on('slideChange', function() {
     } else if(activeSlideIndex == 6){
         descricao = `Um jogo da cobrinha desenvolvido em JavaScript, CSS e HTML. <br>Feito com a ajuda do canal do YouTube Manual do Dev com algumas 
         implementações a mais, como dificuldade e modo noturno.`
+    }else if (activeSlideIndex == 7){
+        descricao = `Um cronometro para estudo desenvolvido em TypeScript. <br>Feito estudando pela Alura, aprendi sobre Componentização, CSS Modules e 
+        deixar o código mais limpo e boas práticas como DRY (Don't repeat yourself) e SRP (Single Responsibility Principle)`
     }
     $('#descricao').text(descricao);
 });
@@ -97,7 +100,9 @@ swiper2.on('slideChange', function() {
     } else if (activeSlideIndex == 14){
         descricao = `Aprendi VSCode no curso de FullStack pela instituição Serratec em 2022.
         Um editor de código-fonte maravilhoso com diversas extenções que facilitam a vida do programador.`
-    }
+    } else if (activeSlideIndex == 15){
+        descricao = `Aprendi TypeScript no curso de da Alura, onde estou completando a formação TypeScript.`
+    } 
     $('#descricao2').text(descricao);
 });
 

@@ -297,3 +297,22 @@ habilidade15.addEventListener("mouseout", function() {
 });
 // -----------------------------------------
 
+var habilidade16 = document.querySelector('#card__habilidade-16');
+
+habilidade16.addEventListener("mouseover", function() {
+    var nome = document.querySelector("#m16");
+    var descricao = document.querySelector("#e16");
+    
+    nome.classList.remove("descricao");
+    descricao.classList.remove("descricao");
+});
+
+habilidade16.addEventListener("mouseout", function() {
+    var nome = document.querySelector("#m16");
+    var descricao = document.querySelector("#e16");
+    
+    nome.classList.add("descricao");
+    descricao.classList.add("descricao");
+});
+// -----------------------------------------
+
