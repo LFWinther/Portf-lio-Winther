@@ -43,11 +43,14 @@ swiper.on('slideChange', function() {
         descricao = `Um projeto feto com HTML e CSS de uma Plataforma da Alura de livros de programação feito
         para estudar responsividade`
     } else if(activeSlideIndex == 6){
-        descricao = `Um jogo da cobrinha desenvolvido em JavaScript, CSS e HTML. <br>Feito com a ajuda do canal do YouTube Manual do Dev com algumas 
-        implementações a mais, como dificuldade e modo noturno.`
+        descricao = `Um jogo da cobrinha desenvolvido em JavaScript, CSS e HTML. 
+        Feito com a ajuda do canal do YouTube Manual do Dev com algumas implementações a mais, como dificuldade e modo noturno.`
     }else if (activeSlideIndex == 7){
-        descricao = `Um cronometro para estudo desenvolvido em TypeScript. <br>Feito estudando pela Alura, aprendi sobre Componentização, CSS Modules e 
+        descricao = `Um cronometro para estudo desenvolvido em TypeScript. Feito estudando pela Alura, aprendi sobre Componentização, CSS Modules e 
         deixar o código mais limpo e boas práticas como DRY (Don't repeat yourself) e SRP (Single Responsibility Principle)`
+    }else if (activeSlideIndex == 8){
+        descricao = `Um site de um restaurante feito pelo curso Alura de ReactTS.
+        Nesse curso pude aprender mais sobre React com o TypeScrpt e também React Router, SCSS, ESLint e boas práticas.`
     }
     $('#descricao').text(descricao);
 });

@@ -149,3 +149,22 @@ projeto8.addEventListener("mouseout", function() {
     descricao.classList.add("descricao");
 });
 // -----------------------------------------
+
+var projeto9 = document.querySelector('#card__projeto-9');
+
+projeto9.addEventListener("mouseover", function() {
+    var nome = document.querySelector("#n9");
+    var descricao = document.querySelector("#d9");
+    
+    nome.classList.remove("descricao");
+    descricao.classList.remove("descricao");
+});
+
+projeto9.addEventListener("mouseout", function() {
+    var nome = document.querySelector("#n9");
+    var descricao = document.querySelector("#d9");
+    
+    nome.classList.add("descricao");
+    descricao.classList.add("descricao");
+});
+// -----------------------------------------
